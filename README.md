@@ -3,7 +3,7 @@ Jump to sections: Towers, Stack, Queue, Postfix, CQ, Polynomial, DLL, BST Operat
 
 Towers
         #include<stdio.h>
-            void towerofhanoi(int n,char source, char end, char temp)
+        void towerofhanoi(int n,char source, char end, char temp)
             {
                 if(n==1)
                 {
@@ -1762,6 +1762,6 @@ BST from File
                root->right=insertBST(root->right,val);
               return(root);
             }  
-    </p>
+    
 
 
